@@ -49,7 +49,6 @@ class Carte:
             return self.points
         
 
-
 class Jeu:
     def __init__(self):
         self.paquet = []    # Avec 52 cartes
@@ -58,19 +57,29 @@ class Jeu:
     def debut(self):
         print("\nDébut du jeu")
 
-    # Méthode pour recevoir les 2 cartes et les afficher
+    # Méthode pour recevoir les 2 cartes
+    def accesseurs(self):
+        pass
 
+    # Méthode affichage des cartes attribuées
+    def afficherCartesAttribués(self):
+        pass
 
     # Méthode pour choisir entre 'prendre' ou 'passer'
-
+    def choisir(self):
+        pass
 
     # Méthode le croupier prend des cartes jusqu'à au moins 17pts
-
+    def boucleCroupier(self):
+        pass
 
     # Méthode pour retourner le score de chacun
-
+    def scores(self):
+        pass
 
     # Méthode pour vérifier qui a gagné
+    def verifGagner(self):
+        pass
 
 
 premiere_carte = Carte()
